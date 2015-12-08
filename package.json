@@ -1,0 +1,26 @@
+{
+  "name": "webspc",
+  "version": "0.1.0",
+  "description": "Single page website creating tool",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dununan/webspc.git"
+  },
+  "author": "Dununan",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "webspc": "./spc.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Dununan/webspc/issues"
+  },
+  "homepage": "https://github.com/Dununan/webspc#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "prompt": "^0.2.14"
+  }
+}
