@@ -1,7 +1,8 @@
-var commander = require('commander');
+var commander   = require('commander');
 
 /** Commands modules **/
-var Init = require('./lib/commands/Init');
+var Init        = require('./lib/commands/Init');
+var InstallCmd  = require('./lib/commands/Install');
 /** ================ **/
 
 
@@ -13,7 +14,17 @@ commander
 	.command('init')
 	.description('Initialize new project')
 	.action(function(){
-		var init = new Init();
+		new Init();
+	});
+/** ============ **/
+
+
+/** Command: install **/
+commander
+	.command('install')
+	.description('Instal project from config file .webspcrc')
+	.action(function(){
+		new InstallCmd();
 	});
 /** ============ **/
 
