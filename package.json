@@ -20,7 +20,15 @@
   },
   "homepage": "https://github.com/Dununan/webspc#readme",
   "dependencies": {
+    "autoprefixer": "^6.2.1",
     "commander": "^2.9.0",
-    "prompt": "^0.2.14"
+    "cssmin": "^0.4.3",
+    "less": "^2.5.3",
+    "postcss": "^5.0.13",
+    "prompt": "^0.2.14",
+    "uglify-js": "^2.6.1"
+  },
+  "devDependencies": {
+    "wrench": "^1.5.8"
   }
 }
